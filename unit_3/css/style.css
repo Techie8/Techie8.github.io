@@ -1,5 +1,8 @@
-body {background: #0BA8AA;
-}
-h1,p{
-	color: #082647;
+body {background: #0BA8AA;color: #082647;}
+#hero {
+    background: url(http://wallpapercave.com/wp/1lS7grH.jpg);
+    padding: 10em 0 0;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
