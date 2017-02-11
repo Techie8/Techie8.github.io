@@ -1,54 +1,54 @@
 body{
-font-family: Helvetica;
-text-align: justify;
 background: url("http://wallpapercave.com/wp/1lS7grH.jpg");
 background-size: cover;
-color: #fff;
 }
 hr{
 	width: 300px;
 }
 h1{
-	font-family: Arial, sans-serif;
+	color: white;
+	font-family: "Franklin Gothic Medium, sans-serif", sans-serif;
 	font-size: 40px;
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 	text-transform: uppercase;
 }
-p{
-	font-family: "Courier New", monospace;
-	font-family: bold;
-	font-size: 50px;
-	text-align:center;
-}
-p{
-	font-family: Arial;
-	font-size: 35px;
-	text-align: center;
-}
 h2 {
 	font-family: Helvetica;
-	font-size: 25px;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: center;
 	text-decoration: underline;
 	color: #127F8B;
 }
-p{
-	font-family: Arial;
-	font-size: 20px;
-	text-align: left;
-}
 h3{
 	font-family: Helvetica;
-	font-size: 20px;
+	font-size: 50px;
+	font-weight: bold;
 	text-align: center;
+	color: #CB5900;
 }
 p{
-	text-align: justify;
+	font-family: "Arial", monospace;
+	font-family: normal;
+	font-size: 16px;
+	text-align:justify;
+}
+.important{
+	font-size: 60px;
+	text-align: center;
+}
+.bits{
+font-size: 30px;
+text-align: center;
 }
 a{
 	font-style: italic;
 	text-decoration: none;
 }
 ul {
-	text-align: right;
+	color: #CB5900;
+	text-align: justify;
+	font-family: helvetica;
+	font-size: 30px;
 }
