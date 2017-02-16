@@ -1,0 +1,89 @@
+body{
+background: url("https://c1.staticflickr.com/6/5821/22669768662_813c76c4ed_b.jpg");
+background-size: cover;
+}
+hr{
+	width: 200px;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton');
+h1{
+	color: white;
+	font-family: 'Anton';
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: lowercase;
+}
+h2 {
+	font-family: Helvetica;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	color: #127F8B;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One');
+h3{
+	font-family: 'Fjalla One';
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	color: #CB5900;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One');
+h4{
+	font-family: 'Fjalla One';
+	font-size: 45px;
+	text-align: center;
+	color: #CB5900
+}
+h5{
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: right;
+	color: white;
+}
+p{
+	font-family: "Arial", monospace;
+	font-family: normal;
+	font-size: 16px;
+	text-align:justify;
+}
+.important{
+	font-size: 25px;
+	text-align: center;
+	color: #127F8B;
+}
+.info{
+	font-family: Arial;
+	font-size: 1em;
+	weight: 30em;
+	text-align: justify;
+	color: white;
+}
+.bits{
+font-size: 30px;
+text-align: center;
+}
+.Ciudad{
+	font-family: Helvetica;
+	font-size: 15px;
+	text-align: justify;
+	color: white;
+}
+.social{
+	font-family: Arial;
+	font-size: 15;
+	text-align: right;
+	color: white;
+}
+a{
+	font-style: italic;
+	text-decoration: none;
+}
+ul {
+	color: #CB5900;
+	text-align: justify;
+	font-family: helvetica;
+	font-size: 30px;
+}
