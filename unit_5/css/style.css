@@ -89,8 +89,12 @@ ul {
 	color: black;
 }
 img {
-	width: 100%;	
-	
+	width: 100%;		
+}
+header{
+	background-color: #FFED74;
+	border: 1px; black solid;
+	padding: 20px;
 }
 footer{
 	text-align: center;
