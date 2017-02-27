@@ -2,16 +2,14 @@ body{
 	font-size: 20px;
 	font-family:arial, helvetica, sans-serif;
 }
-
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing:border-box;
 }
-hr{
-	width: 200px;
-}
+@import url("https://fonts.googleapis.com/css?family=Courgette");
 h1 {
+	font-family: 'Courgette', cursive;
 	font-size: 1em;
 	font-weight: normal;
 	text-align: center;
@@ -21,95 +19,98 @@ h1 {
 	padding-right: 1em;
 }
 h2 {
-	background: #333;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-	color: #CB5900;
-	margin: 4em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	font-size: 30px
+	text-align:center;
+	color: yellow;
 }
-h3 {
-	background: #333;
-	font-size: 45px;
-	font-weight: bold;
+p {
+	font-family: palatino, georgia, serif;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 30px;
 	text-align: center;
-	color: #CB5900;
-	margin: 4em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	color: orange;
 }
-.wrapper{
-	width: 960px;
+.fondotechie{
+	width: 5em;
 	margin: auto;
 }
-.important{
-	font-size: 30px;
-	text-align: center;
-	color: #127F8B;
+.fondobits{
+	width: 5em;
+	margin: auto;
 }
-.info{
-	background: #333;
-	font-size: 1.5em;
-	font-weight: 400;
-	text-align: justify;
-	color: #CB5900;
-	margin: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+.fondosomos{
+	width: 5em;
+	margin: auto;
 }
-.contacto{
-	font-size: 45px;
-	font-weight: bold;
-	text-align: center;
-	color: #CB5900;
+.fondoSV{
+	width: 5em;
+	margin: auto;
 }
-span{
-	font-variant: small-caps;
-	font-family: Tahoma, sans-serif;
-	letter-spacing: .25em;
-	background: rgba(100, 150, 150, .5);
-	color: white;
-}
-.queremos{
-	color: red;
-}
-.social{
-	background-color: #cccccc;
-	font-size: 18px;
-	text-align: center;
-	color: green;
-	margin-right: 20px;
-}
-ul {
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	color: black;
-}
-img {
-	width: 100%;		
-}
-header{
-	background-color: #FFED74;
-	border: 1px; black solid;
-	padding: 20px;
-}
-footer{
-	text-align: center;
-	padding: 1em 0;
+.globales{
+	width: 5em;
+	margin: auto;
 }
 #Intro {
 	background:url(https://c1.staticflickr.com/6/5821/22669768662_813c76c4ed_b.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	font-size: 70px;
-	font-weight: bold;
-	height: 85vh;
-	padding: 1em 0 0;
+	font-weight: normal;
+}
+#Bienvenido{
+	font-size: 35px;
+	text-align: center;
+	text-align: center;
+	color: black;
+}
+#bits{
+	background:url(http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
+	background-size: contain;
+	font-size: 25px;
+	font-weight: normal;
+	color: red;
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 #Somos {
-	background:url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
+	background:url(https://wallpaperbrowse.com/media/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
 	background-size:cover;
+	font-size: 25px;
+	font-weight: normal;
+	color: red;
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#SV{
+	background: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Free-Download-Hipster-Backgrounds.jpg);
+	background-size: cover;
+	font-size: 25px;
+	font-weight: normal;
+	color: red;
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#globales{
+	background:url(http://cdn.wallpapersafari.com/11/32/zT6nBs.jpg);
+	background-size: cover;
+}
+#Saber{
+	background:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv8He04MDy3uiRrOQetbF9rO_flIFipXSg0i4Mbq4qlbvsg6Wolw);
+	background-size: cover;
+}
+ul{
+	font-size: 10px
+	text-align:center;
+	color: orange;
+}
+footer{
+	background: green;
+	color: red;
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }

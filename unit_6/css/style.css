@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=BenchNine|Pragati+Narrow");
+h1{
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	color: green;
+}
+@import url("https://fonts.googleapis.com/css?family=BenchNine");
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: orange;
+}
+h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+p{
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: justify;
+	color: black;
+	line-height: 1.5em;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton');
+#Techie8{
+	color: white;
+	font-family: 'Anton';
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: lowercase;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton');
+#Invitacion{
+	color: white;
+	font-family: 'Anton';
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: lowercase;}
+#Intro{
+	background: url(https://c1.staticflickr.com/6/5821/22669768662_813c76c4ed_b.jpg);
+	background-size: cover;
+	background-size: 1500px;
+}
+#Bienvenido{
+	background:white;
+}
+#bits{
+	background: white;
+}
+#Somos{
+	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
+}
+#SV{
+	background: white;
+}
+#Globales{
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
+}
+#Contacto{	
+	background: white;
+}
+.Ciudades{
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	color: yellow;
+	display: inline;
+}
+.Nombres{
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	color: red;
+}
+img{
+	width: 450px;
+}
+
