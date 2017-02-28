@@ -1,116 +1,129 @@
-body{
-	font-size: 20px;
-	font-family:arial, helvetica, sans-serif;
-}
 *{
-	padding: 0;
-	margin: 0;
+	padding: 1;
+	margin: 1;
 	box-sizing:border-box;
 }
-@import url("https://fonts.googleapis.com/css?family=Courgette");
-h1 {
-	font-family: 'Courgette', cursive;
-	font-size: 1em;
+
+@import url("https://fonts.googleapis.com/css?family=BenchNine|Pragati+Narrow");
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+	font-family:arial, helvetica, sans-serif;
+	font-size: 20px;
+}
+h1{
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size: 55px;
+	text-align: left;
+	color: white;
+}
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	text-align: right;
+	color: orange;
+}
+h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+}
+p{
+	font-family: Helvetica;
+	font-size: 20px;
 	font-weight: normal;
+	text-align: justify;
+	color: black;
+	line-height: 1.5em;
+}
+a{
+	color: red;
+	font-size: 30px;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	width: 200px;
+
+}
+#Intro{
+	background:url(http://elisemoreau.com/wp-content/uploads/2015/03/startup-593334_1280.jpg);
+	background-size: cover;
+	padding: 4em;
+}
+#Techie8{
+	color: white;
+	font-family: 'Anton';
+	font-size: 75px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: lowercase;
+}
+#Invitacion{
+	color: white;
+	font-family: 'Anton';
+	font-size: 30px;
+	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
-	color: green;
-	padding-top: 1em;
-	padding-right: 1em;
 }
-h2 {
-	font-size: 30px
-	text-align:center;
-	color: yellow;
-}
-p {
-	font-family: palatino, georgia, serif;
-	font-size: 18px;
-	line-height: 28px;
-	margin: 30px;
+#Top{
+	font-family: 'Anton';
+	font-size: 30px;
+	font-weight: bold;
 	text-align: center;
-	color: orange;
-}
-.fondotechie{
-	width: 5em;
-	margin: auto;
-}
-.fondobits{
-	width: 5em;
-	margin: auto;
-}
-.fondosomos{
-	width: 5em;
-	margin: auto;
-}
-.fondoSV{
-	width: 5em;
-	margin: auto;
-}
-.globales{
-	width: 5em;
-	margin: auto;
-}
-#Intro {
-	background:url(https://c1.staticflickr.com/6/5821/22669768662_813c76c4ed_b.jpg);
-	background-size:cover;
-	background-repeat:no-repeat;
-	font-size: 70px;
-	font-weight: normal;
-}
-#Bienvenido{
-	font-size: 35px;
-	text-align: center;
-	text-align: center;
-	color: black;
+	text-transform: lowercase;
 }
 #bits{
-	background:url(http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
-	background-size: contain;
-	font-size: 25px;
-	font-weight: normal;
-	color: red;
-	margin: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	background: black;
+	padding: 4em;
 }
-#Somos {
-	background:url(https://wallpaperbrowse.com/media/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
-	background-size:cover;
-	font-size: 25px;
-	font-weight: normal;
-	color: red;
-	margin: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-#SV{
-	background: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Free-Download-Hipster-Backgrounds.jpg);
+#Somos{
+	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
 	background-size: cover;
-	font-size: 25px;
-	font-weight: normal;
-	color: red;
-	margin: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 15em;
 }
-#globales{
-	background:url(http://cdn.wallpapersafari.com/11/32/zT6nBs.jpg);
+#Nombres{
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
+}
+#Globales{
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
 	background-size: cover;
+	padding: 15em;
+}
+#City{
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
 }
 #Saber{
-	background:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv8He04MDy3uiRrOQetbF9rO_flIFipXSg0i4Mbq4qlbvsg6Wolw);
+	background: black;
 	background-size: cover;
+	padding: 8em;
 }
-ul{
-	font-size: 10px
-	text-align:center;
-	color: orange;
+#Contacto{
+	color: white;
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
 }
-footer{
-	background: green;
-	color: red;
-	margin: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+#Siguenos{
+	background: pink;
+	background-size: cover;
+	padding: 2em;
+}
+#Social{
+	color: blue;
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
 }
