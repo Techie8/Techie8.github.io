@@ -1,22 +1,32 @@
+*{
+	padding: 1;
+	margin: 1;
+	box-sizing:border-box;
+}
+
 @import url("https://fonts.googleapis.com/css?family=BenchNine|Pragati+Narrow");
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+	font-family:arial, helvetica, sans-serif;
+	font-size: 20px;
+}
 h1{
 	font-family: 'Pragati Narrow', sans-serif;
 	font-size: 55px;
-	text-align: center;
-	color: green;
+	text-align: left;
+	color: white;
 }
-@import url("https://fonts.googleapis.com/css?family=BenchNine");
 h2{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 35px;
-	text-align: center;
+	text-align: right;
 	color: orange;
 }
 h3{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 40px;
 	text-align: center;
-	color: black;
+	color: blue;
 }
 p{
 	font-family: Helvetica;
@@ -27,76 +37,93 @@ p{
 	line-height: 1.5em;
 }
 a{
-	background-color: orange;
-	color: black;
-	font-size: 25px;
+	color: red;
+	font-size: 30px;
 	text-decoration: none;
 	display: block;
-	float: center;
+	padding: 10px;
+	width: 200px;
+
 }
-@import url('https://fonts.googleapis.com/css?family=Anton');
+#Intro{
+	background:url(http://elisemoreau.com/wp-content/uploads/2015/03/startup-593334_1280.jpg);
+	background-size: cover;
+	padding: 4em;
+}
 #Techie8{
 	color: white;
 	font-family: 'Anton';
-	font-size: 60px;
+	font-size: 75px;
 	font-weight: bold;
 	text-align: left;
 	text-transform: lowercase;
 }
-@import url('https://fonts.googleapis.com/css?family=Anton');
 #Invitacion{
 	color: white;
 	font-family: 'Anton';
 	font-size: 30px;
 	font-weight: bold;
-	text-align: left;
-	text-transform: lowercase;}
-#Intro{
-	background: url(https://c1.staticflickr.com/6/5821/22669768662_813c76c4ed_b.jpg);
-	background-size: cover;
-	background-size: 1500px;
-}
-@import url('https://fonts.googleapis.com/css?family=Anton');
-#Bienvenido{
-	color: orange;
-	font-family: 'Anton';
-	font-size: 35px;
-	font-weight: bold;
-	text-align:center;
+	text-align: center;
 	text-transform: lowercase;
-	background:white;
+}
+#Top{
+	font-family: 'Anton';
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
 }
 #bits{
-	background: white;
+	background: black;
+	padding: 4em;
 }
 #Somos{
 	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
+	background-size: cover;
+	padding: 15em;
 }
-#SV{
-	background: white;
+#Nombres{
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
 }
 #Globales{
 	background: url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
+	background-size: cover;
+	padding: 15em;
 }
-#Contacto{	
-	background: white;
-}
-.Nombres{
-	text-align: left;
-}
-.City{
-	font-family: arial;
+#City{
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
 	text-align: center;
-	color: yellow;
-	display: inline;
+	text-transform: lowercase;
 }
-.Social{
-	font-family: arial;
+#Saber{
+	background: black;
+	background-size: cover;
+	padding: 8em;
+}
+#Contacto{
+	color: white;
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
 	text-align: center;
-	color: yellow;
-	display: inline;
+	text-transform: lowercase;
 }
-img{
-	width: 450px;
+#Siguenos{
+	background: pink;
+	background-size: cover;
+	padding: 2em;
 }
-
+#Social{
+	color: blue;
+	font-family:'Anton';
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
+}
