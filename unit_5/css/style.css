@@ -21,6 +21,7 @@ h2{
 	font-size: 35px;
 	text-align: right;
 	color: orange;
+	padding: 1em;
 }
 h3{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -29,7 +30,7 @@ h3{
 	color: blue;
 }
 p{
-	font-family: Helvetica;
+	font-family: georgia, serif;
 	font-size: 20px;
 	font-weight: normal;
 	text-align: justify;
@@ -43,7 +44,7 @@ a{
 	display: block;
 	padding: 10px;
 	width: 200px;
-
+	display: inline;
 }
 #Intro{
 	background:url(http://elisemoreau.com/wp-content/uploads/2015/03/startup-593334_1280.jpg);
@@ -74,8 +75,15 @@ a{
 	text-transform: lowercase;
 }
 #bits{
-	background: black;
-	padding: 4em;
+	background: #c0dec5;
+	margin: 2em;
+	padding: .5em;
+}
+#Pbits{
+	font-family: georgia, serif;
+	font-size: 20px;
+	line-height: 1.4em;
+	color: black;
 }
 #Somos{
 	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
@@ -88,6 +96,17 @@ a{
 	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
+}
+#SV{
+	background: #c0dec5;
+	margin: 2em;
+	padding: .5em;
+}
+#PSV{
+	font-family: georgia, serif;
+	font-size: 20px;
+	line-height: 1.4em;
+	color: black;
 }
 #Globales{
 	background: url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
@@ -102,19 +121,19 @@ a{
 	text-transform: lowercase;
 }
 #Saber{
-	background: black;
+	background: white;
 	background-size: cover;
-	padding: 8em;
+	padding: 3em;
 }
 #Contacto{
-	color: white;
+	color: black;
 	font-family:'Anton';
 	font-size:30px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
 }
-#Siguenos{
+footer{
 	background: pink;
 	background-size: cover;
 	padding: 2em;
@@ -124,6 +143,14 @@ a{
 	font-family:'Anton';
 	font-size:30px;
 	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
+}
+#Inc{
+	color: black;
+	font-family:'Anton';
+	font-size:15px;
+	font-weight: normal;
 	text-align: center;
 	text-transform: lowercase;
 }
