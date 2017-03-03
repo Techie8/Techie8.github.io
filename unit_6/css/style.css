@@ -20,6 +20,7 @@ h2{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 35px;
 	text-align: right;
+	line-height: 6em;
 	color: orange;
 }
 h3{
@@ -29,21 +30,25 @@ h3{
 	color: blue;
 }
 p{
-	font-family: Helvetica;
+	font-family: georgia, serif;
 	font-size: 20px;
 	font-weight: normal;
 	text-align: justify;
 	color: black;
 	line-height: 1.5em;
 }
+nav{
+	font-size: 2em;
+	padding: .5em;
+}
 a{
-	color: red;
-	font-size: 30px;
+	background-color: #aaaaaa;
+	color: white;
+	font-size: 20px;
 	text-decoration: none;
 	display: block;
 	padding: 10px;
-	width: 200px;
-
+	display: inline;
 }
 #Intro{
 	background:url(http://elisemoreau.com/wp-content/uploads/2015/03/startup-593334_1280.jpg);
@@ -68,62 +73,97 @@ a{
 }
 #Top{
 	font-family: 'Anton';
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
+	padding: .5em;
+	margin: auto;
 }
 #bits{
-	background: black;
-	padding: 4em;
+	background: #c0dec5;
+	margin: auto;
+	padding: .5em;
+}
+#Pbits{
+	font-family: georgia, serif;
+	font-size: 20px;
+	line-height: 1.4em;
+	margin: 2em;
 }
 #Somos{
 	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
 	background-size: cover;
-	padding: 15em;
+	padding: 10em;
 }
 #Nombres{
+	background: none;
 	font-family:'Anton';
 	font-size:30px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
 }
+#Quien{
+	text-align: left;
+}
+#SV{
+	background: #c0dec5;
+	margin: auto;
+	padding: .5em;
+}
+#PSV{
+	font-family: georgia, serif;
+	font-size: 20px;
+	line-height: 1.4em;
+	color: black;
+	margin: 2em;
+}
 #Globales{
 	background: url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
 	background-size: cover;
-	padding: 15em;
+	padding: 10em;
+	margin: auto;
 }
 #City{
+	background: none;
 	font-family:'Anton';
-	font-size:30px;
+	font-size:20px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
 }
 #Saber{
-	background: black;
+	background: white;
 	background-size: cover;
-	padding: 8em;
+	padding: 6em;
 }
 #Contacto{
-	color: white;
+	color: black;
 	font-family:'Anton';
 	font-size:30px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
 }
-#Siguenos{
+footer{
 	background: pink;
 	background-size: cover;
-	padding: 2em;
 }
 #Social{
 	color: blue;
 	font-family:'Anton';
 	font-size:30px;
 	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
+	padding: .5em;
+}
+#Inc{
+	color: black;
+	font-family:'Anton';
+	font-size:15px;
+	font-weight: normal;
 	text-align: center;
 	text-transform: lowercase;
 }
