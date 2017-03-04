@@ -1,6 +1,6 @@
 *{
-	padding: 1;
-	margin: 1;
+	padding: 0;
+	margin: 0;
 	box-sizing:border-box;
 }
 
@@ -9,12 +9,14 @@
 body {
 	font-family:arial, helvetica, sans-serif;
 	font-size: 20px;
+	display: block;
 }
 h1 {
 	font-family: 'Pragati Narrow', sans-serif;
 	font-size: 55px;
-	text-align: left;
+	text-align: center;
 	color: white;
+	padding-top: 45px;
 }
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -22,6 +24,10 @@ h2 {
 	text-align: right;
 	line-height: 6em;
 	color: orange;
+}
+
+h2:hover {
+	color: black;
 }
 h3 {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -46,22 +52,28 @@ a {
 	color: white;
 	font-size: 20px;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	padding: 10px;
-	display: inline;
+	margin: 58px;
 }
 #Intro {
-	background:url(http://elisemoreau.com/wp-content/uploads/2015/03/startup-593334_1280.jpg);
+	background: url('../images/hero.jpg');
 	background-size: cover;
-	padding: 4em;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 500px;
+	padding-top: 35px;
 }
 #Techie8{
 	color: white;
 	font-family: 'Anton';
-	font-size: 75px;
+	font-size: 60px;
 	font-weight: bold;
 	text-align: left;
 	text-transform: lowercase;
+	margin: 0;
+	padding-right: 20px;
+	padding-left: 10px;
 }
 #Invitacion {
 	color: white;
@@ -94,7 +106,7 @@ a {
 #Somos {
 	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
 	background-size: cover;
-	padding: 10em;
+	height: 500px;
 }
 #Nombres {
 	background: none;
@@ -105,7 +117,7 @@ a {
 	text-transform: lowercase;
 }
 #Quien {
-	text-align: left;
+	text-align: center;
 }
 #twho_column {
 	background-color: black;
@@ -117,15 +129,16 @@ a {
 	background-color: #783C31;
 	border: 1px black solid;
 	padding: 20px;
-	float: left;
 	width: 62%;
+	display: inline-block;
 }
 #right {
 	background-color: #783C31;
 	border: 1px black solid;
 	padding: 20px;
-	float: right;
 	width: 30%;
+	display: inline-block;
+	vertical-align: top;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -192,4 +205,20 @@ footer {
 	font-weight: normal;
 	text-align: center;
 	text-transform: lowercase;
+}
+
+.blue-border {
+	border: 2px solid blue;
+}
+
+#purple{
+	color: purple;
+}
+
+.medium-img {
+	width: 60%;
+}
+.small-img{
+	width: 48%;
+	display: inline-block;
 }
