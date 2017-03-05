@@ -12,11 +12,12 @@ body {
 	display: block;
 }
 h1 {
-	font-family: 'Pragati Narrow', sans-serif;
-	font-size: 55px;
-	text-align: center;
+	font-family: 'Anton';
+	font-size: 150px;
+	text-align: left;
 	color: white;
-	padding-top: 45px;
+	padding-top: 60px;
+	padding-left: 20px;
 }
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -48,34 +49,36 @@ nav{
 	padding: .5em;
 }
 a {
-	background-color: #aaaaaa;
-	color: white;
+	color: black;
 	font-size: 20px;
 	text-decoration: none;
 	display: inline-block;
 	padding: 10px;
 	margin: 58px;
 }
-#Intro {
+#intro {
 	background: url('../images/hero.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 500px;
-	padding-top: 35px;
+	height: 600px;
+	width: 1500px;
+	padding-top: 50px;
 }
-#Techie8{
+#daily{
 	color: white;
 	font-family: 'Anton';
-	font-size: 60px;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: left;
 	text-transform: lowercase;
 	margin: 0;
 	padding-right: 20px;
 	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
-#Invitacion {
+#invitacion {
 	color: white;
 	font-family: 'Anton';
 	font-size: 30px;
@@ -83,40 +86,51 @@ a {
 	text-align: center;
 	text-transform: lowercase;
 }
-#Top {
+#top {
 	font-family: 'Anton';
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
-	text-transform: lowercase;
-	padding: .5em;
 	margin: auto;
 }
 #bits{
-	background: #783C31;
-	margin: auto;
+	background: white;
+	background-size: 1000px;
 	padding: .5em;
+	margin: auto;
 }
-#Pbits {
+#ocho{
+	text-align: center;
+}
+#pbits {
 	font-family: georgia, serif;
-	font-size: 20px;
-	line-height: 1.4em;
-	margin: 2em;
+	font-size: 50px;
+	text-align: left;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin: 5em;
+	color: black;
 }
-#Somos {
+.news{
+	font-family: georgia, serif;
+	font-size: 25px;
+	line-height: 1.4em;
+	margin: 5em;
+	color: black;	
+}
+#somos {
 	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
 	background-size: cover;
 	height: 500px;
 }
-#Nombres {
+#nombres {
 	background: none;
 	font-family:'Anton';
 	font-size:30px;
 	font-weight: bold;
 	text-align: center;
-	text-transform: lowercase;
 }
-#Quien {
+#quien {
 	text-align: center;
 }
 #twho_column {
@@ -126,17 +140,22 @@ a {
 	margin: auto;
 }
 #left {
-	background-color: #783C31;
-	border: 1px black solid;
+	background-color: white;
 	padding: 20px;
-	width: 62%;
+	border: 1px;
+	width: 50%;
 	display: inline-block;
 }
+.bienvenido{
+	font-size: 15px;
+	color: black;
+	font-weight: normal;
+}
 #right {
-	background-color: #783C31;
-	border: 1px black solid;
-	padding: 20px;
-	width: 30%;
+	background-color: white;
+	padding: 10px;
+	border: 1px;
+	width: 32%;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -148,23 +167,18 @@ a {
 	clear: both;
 	height: 0;
 }
-#SV{
+#sv{
 	text-align: center;
-	font-size: 30px;
 	color: orange;
+	padding-left: 20px;
 }
-#SF{
-	text-align: center;
-	font-size: 30px;
-	color: orange;
-}
-#Globales {
+#globales {
 	background: url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
 	background-size: cover;
 	padding: 10em;
 	margin: auto;
 }
-#City {
+#city {
 	background: none;
 	font-family:'Anton';
 	font-size:20px;
@@ -172,12 +186,12 @@ a {
 	text-align: center;
 	text-transform: lowercase;
 }
-#Saber {
+#saber {
 	background: white;
 	background-size: cover;
 	padding: 6em;
 }
-#Contacto {
+#contacto {
 	color: black;
 	font-family:'Anton';
 	font-size:30px;
@@ -189,7 +203,7 @@ footer {
 	background: pink;
 	background-size: cover;
 }
-#Social {
+#social {
 	color: blue;
 	font-family:'Anton';
 	font-size:30px;
@@ -198,7 +212,7 @@ footer {
 	text-transform: lowercase;
 	padding: .5em;
 }
-#Inc {
+#inc {
 	color: black;
 	font-family:'Anton';
 	font-size:15px;
@@ -207,7 +221,7 @@ footer {
 	text-transform: lowercase;
 }
 
-.blue-border {
+.blue-border{
 	border: 2px solid blue;
 }
 
@@ -216,9 +230,10 @@ footer {
 }
 
 .medium-img {
-	width: 60%;
+	width: 100%;
+	height: 
 }
 .small-img{
-	width: 48%;
+	width: 70%;
 	display: inline-block;
 }
