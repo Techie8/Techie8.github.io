@@ -92,36 +92,45 @@ a {
 	font-weight: bold;
 	text-align: center;
 	margin: auto;
+	padding: 0 .5em 0 .5em;
 }
 #bits{
 	background: white;
 	background-size: 1000px;
-	padding: .5em;
+	padding: .5em 0 .5em 0;
 	margin: auto;
+	line-height: 2em;
 }
 #ocho{
-	text-align: center;
+	font-size: 60px;
+	color: black;
+	text-align: left;
+	padding: .5em 0em 0 2em;
 }
 #pbits {
 	font-family: georgia, serif;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: left;
 	font-weight: bold;
 	line-height: 1.5em;
-	margin: 5em;
+	margin: 1em;
+	padding: .5em 10em 0 1.5em;
 	color: black;
+	
 }
 .news{
 	font-family: georgia, serif;
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 1.4em;
-	margin: 5em;
+	margin: 1.4em;
+	padding: .5em 10em 4em 4em;
 	color: black;	
 }
 #somos {
-	background: url(https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg);
+	background: url('../images/us.jpeg');
 	background-size: cover;
-	height: 500px;
+	height: 900px;
+	width: 1500px;
 }
 #nombres {
 	background: none;
@@ -150,10 +159,10 @@ a {
 	font-size: 15px;
 	color: black;
 	font-weight: normal;
+	padding: 2em 2em 2em 2em;
 }
 #right {
 	background-color: white;
-	padding: 10px;
 	border: 1px;
 	width: 32%;
 	display: inline-block;
@@ -168,9 +177,10 @@ a {
 	height: 0;
 }
 #sv{
+	font-size: 40px
 	text-align: center;
-	color: orange;
-	padding-left: 20px;
+	color: black;
+	padding: 2em .5em 0 1.5em;
 }
 #globales {
 	background: url(https://s-media-cache-ak0.pinimg.com/originals/f6/11/98/f611988fd5635e197c64940075ecb558.jpg);
@@ -230,10 +240,9 @@ footer {
 }
 
 .medium-img {
-	width: 100%;
-	height: 
+	width: 165%;
 }
 .small-img{
-	width: 70%;
+	width: 50%;
 	display: inline-block;
 }
