@@ -62,7 +62,7 @@ a {
 	background-position: center center;
 	background-repeat: no-repeat;
 	height: 600px;
-	width: 1500px;
+	width: 100%;
 	padding-top: 50px;
 }
 #daily{
@@ -94,11 +94,24 @@ a {
 	margin: auto;
 	padding: 0 .5em 0 .5em;
 }
+#top a {
+	display: block;
+	width: 20%;
+	text-align:center;
+	padding: 10px;
+	border: 1px solid transparent;
+	float: left;
+	margin: 0;
+}
+#top a:hover{
+	border-color:blue;
+}
 #bits{
 	background: white;
-	background-size: 1000px;
+	width: 100%;
+	max-width: 1000px;
 	padding: .5em 0 .5em 0;
-	margin: auto;
+	margin: 0 auto;
 	line-height: 2em;
 }
 #ocho{
@@ -122,15 +135,15 @@ a {
 	font-family: georgia, serif;
 	font-size: 20px;
 	line-height: 1.4em;
-	margin: 1.4em;
-	padding: .5em 10em 4em 4em;
+	margin: 1em;
+	padding: 10px;
 	color: black;	
 }
 #somos {
 	background: url('../images/us.jpeg');
 	background-size: cover;
 	height: 900px;
-	width: 1500px;
+	width: 100%;
 }
 #nombres {
 	background: none;
@@ -153,7 +166,7 @@ a {
 	padding: 20px;
 	border: 1px;
 	width: 50%;
-	display: inline-block;
+	float: left;
 }
 .bienvenido{
 	font-size: 15px;
@@ -164,8 +177,8 @@ a {
 #right {
 	background-color: white;
 	border: 1px;
-	width: 32%;
-	display: inline-block;
+	width: 50%;
+	float: left;
 	vertical-align: top;
 }
 .clearfix:after {
@@ -240,9 +253,11 @@ footer {
 }
 
 .medium-img {
-	width: 165%;
+	width: 100%;
+	display: block;
 }
 .small-img{
 	width: 50%;
-	display: inline-block;
+	float: left;
+	display: block;
 }
