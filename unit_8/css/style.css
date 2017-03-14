@@ -22,7 +22,7 @@ h1 {
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 25px;
-	text-align: left;
+	text-align: center;
 	color: grey;
 }
 
@@ -110,8 +110,6 @@ a {
 	width: 100%;
 	max-width: 1000px;
 	line-height: 2em;
-	margin: 2em;
-	padding: 5em;
 }
 #ocho{
 	font-family: georgia, serif;
@@ -119,7 +117,6 @@ a {
 	text-align: left;
 	font-weight: bold;
 	line-height: 1.5em;
-	padding: 10px 20px 10px 50px;
 	color: black;
 }
 #pbits {
@@ -128,65 +125,39 @@ a {
 	text-align: left;
 	font-weight: bold;
 	line-height: 1.5em;
-	padding: 10px 20px 10px 50px;
 	color: black;
 }
 .news{
 	font-family: georgia, serif;
 	font-size: 20px;
 	line-height: 1.4em;
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-bottom: 0;
-	padding-left: 50px;
 	color: black;	
 }
-#three_column{
+#three_column, #frase{
 	background-color: white;
-	padding: 3em;
+	padding: 40px 0;
 }
 .necesita{
 	font-family: 'Anton';
 	font-size: 15px;
 	font-weight: normal;
-	text-align: left;
+	text-align: center;
 	margin: auto;
-	padding: 0 .5em 0 .5em;
 	color: black;
 }
-#one{
+#one, #two, #three, #uno, #dos, #tres {
 	background-color: white;
 	width: 25%;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
 }
-#two{
-	background-color: white;
-	width: 25%;
-	float: left;
-}
-#three{
-	background-color: white;
-	width: 25%;
-	float: left;
-}
-#frase{
-	padding: 2em;
-}
-#uno{
-	background-color: white;
-	width: 25%;
-	float: left;
-}
-#dos{
-	background-color: white;
-	width: 25%;
-	float: left;
-}
-#tres{
-	background-color: white;
-	width: 25%;
-	float: left;
-}
+
+/* #three {
+	background-color: green;
+}*/
+
+
 .people{
 	color: black;
 	font-size: 10px;
@@ -291,4 +262,33 @@ footer {
 	width: 50%;
 	float: left;
 	display: block;
+}
+
+.container {
+	padding: 36px 0 36px 100px;
+}
+
+.puente {
+	background-image: url('../images/puente.jpeg');
+	background-size: cover;
+	height: 200px;
+	width: 49%;
+	display: inline-block;
+}
+
+.city {
+	background-image: url('../images/city.jpeg');
+	background-size: cover;
+	height: 200px;
+	width: 49%;
+	display: inline-block;
+}
+
+@media (max-width: 800px) {
+	nav{
+		float: none;
+	}
+	nav a{
+		margin: 0 1.6em .75em 0;
+	}
 }
