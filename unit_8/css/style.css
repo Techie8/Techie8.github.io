@@ -4,8 +4,11 @@
 	box-sizing:border-box;
 }
 
-@import url("https://fonts.googleapis.com/css?family=BenchNine|Pragati+Narrow");
+@import url('https://fonts.googleapis.com/css?family=BenchNine|Pragati+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto')
+@import url('https://fonts.googleapis.com/css?family=Oswald')
+
 body {
 	font-family:arial, helvetica, sans-serif;
 	font-size: 20px;
@@ -13,17 +16,18 @@ body {
 }
 h1 {
 	font-family: 'Anton';
-	font-size: 150px;
+	font-size: 160px;
 	text-align: left;
 	color: white;
 	padding-top: 60px;
 	padding-left: 50px;
 }
 h2 {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 25px;
 	text-align: center;
-	color: grey; 
+	color: black;
+	letter-spacing: 5px;
 }
 h2:hover {
 	color: black;
@@ -36,9 +40,8 @@ h3 {
 	padding-top: 80px;
 }
 p {
-	font-family: georgia, serif;
-	font-size: 20px;
-	font-weight: normal;
+	font-family: 
+	font-size: 25px;
 	text-align: justify;
 	color: white;
 	line-height: 1.5em;
@@ -66,34 +69,36 @@ a {
 }
 #daily{
 	color: white;
-	font-family: 'Anton';
-	font-size: 20px;
-	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
 	text-align: left;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	margin: 0;
 	padding-right: 20px;
 	padding-left: 50px;
-	padding-top: 1px;
-	padding-bottom: 0;
+	padding-top: .5px;
+	padding-bottom: 35px;
+	letter-spacing: 9px;
 }
 #invitacion {
 	color: white;
 	font-family: 'Anton';
-	font-size: 30px;
+	font-size: 33px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: lowercase;
+	letter-spacing: 5px;
 }
 #top {
-	font-family: 'Anton';
-	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
 	margin: auto;
 	padding: 0 .5em 0 .5em;
 }
 #top a {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	color: #3F434A;
 	display: block;
 	width: 20%;
 	text-align:center;
@@ -103,7 +108,7 @@ a {
 	margin: 0;
 }
 #top a:hover{
-	border-color:blue;
+	border-color:#006BA1;
 }
 #bits{
 	background: white;
@@ -129,22 +134,29 @@ a {
 }
 .news{
 	font-family: georgia, serif;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.4em;
-	color: black;	
-	height: 4.5em;
+	color: #646982;	
+	height: 4em;
 }
 #three_column, #frase{
 	background-color: white;
 	padding: 40px 0;
 }
 .necesita{
+	margin-top:25px;
 	font-family: 'Anton';
 	font-size: 15px;
-	font-weight: normal;
-	text-align: center;
+	font-weight: 500;
+	text-align: justify;
 	margin: auto;
-	color: black;
+	color: #73838e;
+}
+#tipone, #tiptwo, #tipthree {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    width: 230px;
 }
 #one, #two, #three, #uno, #dos, #tres {
 	background-color: white;
@@ -152,6 +164,10 @@ a {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+}
+.foto {
+	width: 100%;
+	display: block;
 }
 
 /* #three {
@@ -258,16 +274,14 @@ footer {
 	width: 100%;
 	display: block;
 }
-.small-img{
+.small-imges {
 	width: 50%;
 	float: left;
 	display: block;
 }
-
 .container {
 	padding: 60px 20px 85px 200px;
-}
-
+	}
 .puente {
 	background-image: url('../images/puente.jpeg');
 	background-size: cover;
@@ -275,7 +289,6 @@ footer {
 	width: 49%;
 	display: inline-block;
 }
-
 .city {
 	background-image: url('../images/city.jpeg');
 	background-size: cover;
@@ -284,11 +297,11 @@ footer {
 	display: inline-block;
 }
 
-@media (max-width: 800px) {
-	nav{
-		float: none;
-	}
-	nav a{
-		margin: 0 1.6em .75em 0;
+@media screen and (max-width: 1640px) {
+	#twho_column {
+	background-color: black;
+	border: 1px black solid;
+	padding: 20px;
+	margin: auto;
 	}
 }
