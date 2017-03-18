@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=BenchNine|Pragati+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto')
-@import url('https://fonts.googleapis.com/css?family=Oswald')
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 body {
 	font-family:arial, helvetica, sans-serif;
@@ -297,11 +297,29 @@ footer {
 	display: inline-block;
 }
 
-@media screen and (max-width: 1640px) {
-	#twho_column {
-	background-color: black;
-	border: 1px black solid;
-	padding: 20px;
-	margin: auto;
+@media screen and (max-width: 640px) {
+	
+	.container {
+		padding: 30px;
+	}
+	#two_column {
+		background-color: black;
+		border: 1px black solid;
+		padding: 20px;
+		margin: auto;
+	}
+	#right {
+	    background-color: white;
+	    border: 1px;
+	    width: 100%;
+	    float: none;
+	    vertical-align: top;
+	}
+	#left {
+    	background-color: white;
+	    padding: 20px;
+	    border: 1px;
+	    width: 100%;
+	    float: none;
 	}
 }
